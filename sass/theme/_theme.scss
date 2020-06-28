@@ -1,25 +1,7 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 @import "theme/layouts/general";  
-@import "theme/layouts/header";
-@import "theme/layouts/footer";  
-@import "theme/layouts/pages/index";
-@import "theme/layouts/pages/single";
-     
+@import "theme/layouts/footer";
+@import "theme/layouts/pages/index";  
+@import "theme/layouts/pages/single"; 
 // SCSS Syntax http://sass-lang.com/documentation/file.SASS_REFERENCE.html#css_extensions
 
-// variable declaration in SCSS we use variables to keep style clean and easy to modify
-// if we use this variable to say 50 rules and want to change the color, we would change only this variable.
-$mycolor: #67A6A6;
-
-// in SCSS we nest
-nav {
-  // in CSS this was selected by nav a
-  a {
-    color: $mycolor !important;
-    // change a on hover example
-    // in CSS this was selected by nav a:hover
-    &:hover {
-      color: $brand-primary !important;
-    }
-  }
-}
