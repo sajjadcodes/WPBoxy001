@@ -1,6 +1,6 @@
 {
 	"browserSyncOptions": {
-		"proxy": "localhost:8080/",
+		"proxy": "http://themedev.site/",
 		"notify": false
 	},
 	"browserSyncWatchFiles": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"],

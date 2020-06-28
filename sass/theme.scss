@@ -1,6 +1,6 @@
 @import "theme/theme_variables";  // <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or WPBoxy variables here
 @import "assets/bootstrap4";      // <-------- Loads Bootstrap4
-@import "wpboxy/wpboxy";  // <-------- Loads the WPBoxy defaults. Just a few classes to incorporate BS in WP
+// @import "wpboxy/wpboxy";  // <-------- Loads the WPBoxy defaults. Just a few classes to incorporate BS in WP
 @import "wpboxy/woocommerce"; // <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
 
 // Optional files - If you dont use the corresponding scripts/fonts comment em out
@@ -10,3 +10,7 @@
 // Any additional imported files //
 @import "theme/theme";            // <-------- That's where you can add your own design. Thats your part!
 @import "theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+
+body{
+    background-color: coral;
+}

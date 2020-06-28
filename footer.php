@@ -28,6 +28,7 @@ $container = get_theme_mod( 'wpboxy_container_type' );
 					<div class="site-info">
 
 						<?php wpboxy_site_info(); ?>
+						<?php _e('This is the testing','wpboxy'); ?>
 
 					</div><!-- .site-info -->
 
