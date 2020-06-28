@@ -2,7 +2,7 @@
 /**
  * Right sidebar check.
  *
- * @package understrap
+ * @package wpboxy
  */
 
 // Exit if accessed directly.
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 </div><!-- #closing the primary container from /global-templates/left-sidebar-check.php -->
 
-<?php $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' ); ?>
+<?php $sidebar_pos = get_theme_mod( 'wpboxy_sidebar_position' ); ?>
 
 <?php if ( 'right' === $sidebar_pos || 'both' === $sidebar_pos ) : ?>
 

@@ -2,13 +2,13 @@
 /**
  * Static hero sidebar setup.
  *
- * @package understrap
+ * @package wpboxy
  */
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-$container = get_theme_mod( 'understrap_container_type' );
+$container = get_theme_mod( 'wpboxy_container_type' );
 ?>
 
 <?php if ( is_active_sidebar( 'statichero' ) ) : ?>

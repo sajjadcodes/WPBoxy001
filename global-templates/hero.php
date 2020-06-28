@@ -2,7 +2,7 @@
 /**
  * Hero setup.
  *
- * @package understrap
+ * @package wpboxy
  */
 
 // Exit if accessed directly.
