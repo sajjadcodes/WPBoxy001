@@ -26,9 +26,9 @@ $container = get_theme_mod( 'wpboxy_container_type' );
 				<footer class="site-footer" id="colophon">
 
 					<div class="site-info">
-
+						
 						<?php wpboxy_site_info(); ?>
-						<?php _e('This is the testing','wpboxy'); ?>
+						
 
 					</div><!-- .site-info -->
 

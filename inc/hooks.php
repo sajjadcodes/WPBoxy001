@@ -31,8 +31,8 @@ if ( ! function_exists( 'wpboxy_add_site_info' ) ) {
 			esc_url( __( 'http://wordpress.org/', 'wpboxy' ) ),
 			sprintf(
 				/* translators:*/
-				esc_html__( 'Proudly powered by %s', 'wpboxy' ),
-				'WordPress'
+				esc_html__( 'Designed By %s', 'wpboxy' ),
+				'WPBOXY'
 			),
 			sprintf( // WPCS: XSS ok.
 				/* translators:*/

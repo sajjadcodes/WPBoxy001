@@ -1,0 +1,20 @@
+
+
+.navbar{
+    background:$primary; 
+    color:$secondary !important;
+    max-width:1920px;
+    max-height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0 0 1px black;
+
+}
+.navbar-brand a{
+    color:$secondary !important;
+    font-size:30px;
+}
+ 
+.navbar-light .navbar-nav .nav-link{
+    padding:38px 0 38px 45px;
+    font-size: 16px;
+}
