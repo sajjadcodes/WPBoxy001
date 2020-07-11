@@ -9,8 +9,10 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
+<article <?php post_class('contain-area'); ?> id="post-<?php the_ID(); ?>">
 
+
+<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 	<header class="entry-header">
 
 		<?php
@@ -30,9 +32,10 @@ defined( 'ABSPATH' ) || exit;
 
 	</header><!-- .entry-header -->
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+
 
 	<div class="entry-content">
+		
 
 		<?php the_excerpt(); ?>
 
@@ -52,5 +55,9 @@ defined( 'ABSPATH' ) || exit;
 		<?php wpboxy_entry_footer(); ?>
 
 	</footer><!-- .entry-footer -->
+
+
+
+
 
 </article><!-- #post-## -->

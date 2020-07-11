@@ -28,7 +28,7 @@ if ( ! function_exists( 'wpboxy_posted_on' ) ) {
 		$posted_on   = apply_filters(
 			'wpboxy_posted_on', sprintf(
 				'<span class="posted-on">%1$s <a href="%2$s" rel="bookmark">%3$s</a></span>',
-				esc_html_x( 'Posted on', 'post date', 'wpboxy' ),
+				esc_html_x( 'LAST UPADATED', 'post date', 'wpboxy' ),
 				esc_url( get_permalink() ),
 				apply_filters( 'wpboxy_posted_on_time', $time_string )
 			)
@@ -41,7 +41,8 @@ if ( ! function_exists( 'wpboxy_posted_on' ) ) {
 				esc_html( get_the_author() )
 			)
 		);
-		echo $posted_on . $byline; // WPCS: XSS OK.
+		echo $posted_on;
+		//  . $byline; // WPCS: XSS OK.
 	}
 }
 

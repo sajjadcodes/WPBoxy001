@@ -5,3 +5,15 @@
 body{
     color:$secondary;
 }
+.btn-secondary{
+    width: 100px;
+    height: 26px;
+    background-color:white;
+    color:black;
+    &:hover{
+        color:white;
+        background-color:red;
+    }
+
+
+}

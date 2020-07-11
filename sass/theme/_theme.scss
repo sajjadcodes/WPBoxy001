@@ -6,3 +6,40 @@
 @import "theme/layouts/pages/single"; 
 // SCSS Syntax http://sass-lang.com/documentation/file.SASS_REFERENCE.html#css_extensions
 
+.site-main{
+    margin-top: 60px;
+    .contain-area{
+        border: 1px solid #EBEBEB;
+        border-radius: 10px 10px 10px 10px;
+        margin-bottom: 50px;
+        img{
+            border: 1px solid #EBEBEB;
+            height: 400px;
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+    }
+    
+    
+   
+   
+    .entry-header{
+        color:#474747;
+        margin: 30px 0 0 30px;
+        a{
+            color:#474747;
+        }
+
+    }
+    .entry-content{
+        margin-left: 30px;
+      
+    }
+
+}
+.widget-area{
+   
+    margin-top: 60px;
+    margin-left:30px;
+    }

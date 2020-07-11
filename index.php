@@ -16,7 +16,7 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 
-$container = get_theme_mod( 'wpboxy_container_type' );
+$container = get_theme_mod( 'wpboxy_container_typeس' );
 ?>
 
 <?php if ( is_front_page() && is_home() ) : ?>
