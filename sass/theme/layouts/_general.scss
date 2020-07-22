@@ -12,8 +12,18 @@ body{
     color:black;
     &:hover{
         color:white;
-        background-color:red;
+        background-color:red; 
     }
+    
 
 
+}
+.entry-meta{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color:#474747;
+}
+.single_feature{
+    margin-bottom: 30px;
 }

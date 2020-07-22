@@ -7,7 +7,7 @@
 
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
-
+ echo "Template: Single.php";
 get_header();
 $container = get_theme_mod( 'wpboxy_container_type' );
 ?>

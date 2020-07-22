@@ -11,19 +11,20 @@ defined( 'ABSPATH' ) || exit;
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<header class="entry-header">
-
+	<header class="entry-header text-center">
+	<?php echo '<p class="category-name">'. get_the_category( $id )[0]->name .'</p>';?>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
 
-			<?php wpboxy_posted_on(); ?>
+			<?php the_author(); echo'-';?> 
+			<?php the_date(); ?>
 
 		</div><!-- .entry-meta -->
 
 	</header><!-- .entry-header -->
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	<?php echo get_the_post_thumbnail( $post->ID, 'large',array('class' => 'single_feature') ); ?>
 
 	<div class="entry-content">
 
