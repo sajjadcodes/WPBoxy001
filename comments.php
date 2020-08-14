@@ -123,6 +123,8 @@ if ( post_password_required() ) {
 
 	<?php endif; ?>
 
-	<?php comment_form(); // Render comments form. ?>
+	
 
+	<?php comment_form(); // Render comments form. ?>
+	<?php echo 'This is comments template page'; ?>
 </div><!-- #comments -->

@@ -12,7 +12,7 @@ body{
     color:black;
     &:hover{
         color:white;
-        background-color:red; 
+        background-color:#474747;
     }
     
 
@@ -26,4 +26,15 @@ body{
 }
 .single_feature{
     margin-bottom: 30px;
+}
+.form-control{
+    display: inline;
+}
+.btn-secondary {
+    width: 100px;
+    height: 26px;
+    background-color: #474747;
+    color: white;
+    width: 175px;
+    height: 55px;
 }

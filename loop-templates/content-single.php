@@ -19,6 +19,7 @@ defined( 'ABSPATH' ) || exit;
 
 			<?php the_author(); echo'-';?> 
 			<?php the_date(); ?>
+			
 
 		</div><!-- .entry-meta -->
 
